@@ -1,0 +1,12 @@
+type ProductCustomInfo {
+    sku: String
+    name: String
+    price: Float
+    qty: Float
+}
+
+type Query {
+    customProductInfo(skus: [String!]!): ProductCustomInfo
+    @resolver(class: "Vendor\\InventorySync\\Model\\Resolver\\CustomProductInfo")
+    @doc(description: "Get custom product information by SKU by jpoou")
+}
