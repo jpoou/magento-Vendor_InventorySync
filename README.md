@@ -102,4 +102,4 @@ rm -rf app/code/Vendor/InventorySync
 
 ## Créditos
 
-Desarrollado por Juan Carlos Morales Poou. Contacto: [tusitio.com](https://quickshipping.com)
+Desarrollado por Juan Carlos Morales Poou.
