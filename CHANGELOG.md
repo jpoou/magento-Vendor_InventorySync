@@ -10,3 +10,9 @@
 ## [1.3.0] - 2024-12-11
 ### Added
 -- New graphql query for getting product inventory with sku's
+
+## [1.4.0] - 2024-12-12
+### Added
+- Documentation files for the module
+- Enabling authorization for the graphql endpoint
+- Reconfiguring the cron job to run every 6 hours

@@ -28,9 +28,9 @@ class CustomProductInfo implements ResolverInterface
 
     public function resolve(Field $field, $context, ResolveInfo $info, array $value = null, array $args = null)
     {
-        /*if (!$this->customerSession->isLoggedIn()) {
+        if (!$this->customerSession->isLoggedIn()) {
             throw new GraphQlAuthorizationException(__("You must be logged in to access this information."));
-        }*/
+        }
 
         if (!isset($args['skus']) || !is_array($args['skus'])) {
             throw new LocalizedException(__("Invalid 'skus' argument."));
